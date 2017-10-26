@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View} from 'react-native';
+import { Text, View } from 'react-native';
 import axios from 'axios';
 
 const Header = (props) => {
@@ -25,7 +25,7 @@ const styles = {
       backgroundColor: '#0C508B',
       alignItems: 'center',
       shadowColor: '#083861',
-      shadowOffset: { width: 0, height: 20},
+      shadowOffset: { width: 0, height: 20 },
       shadowOpacity: 0.9,
       elevation: 5
    }

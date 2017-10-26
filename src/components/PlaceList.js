@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { ScrollView, Text, View } from 'react-native';
+import { ScrollView } from 'react-native';
 import axios from 'axios';
 
 import PlaceDetail from './PlaceDetail';
 
 class PlaceList extends Component {
-   state = { places:[] };
+   state = { places: [] };
 
    componentWillMount() {
       console.log('Will Mount');
@@ -19,12 +19,12 @@ class PlaceList extends Component {
    renderPlaces() {
       if (this.state.places.length > 0) {
          return this.state.places.map((data, index) =>
-            <PlaceDetail key={index} places={data}/>
+            <PlaceDetail key={index} places={data} />
          );
       }
    }
    
-   render () {
+   render() {
       console.log('render places', this.state.places);
       
       return (
@@ -33,6 +33,6 @@ class PlaceList extends Component {
          </ScrollView>
       );
    }
-};
+}
 
 export default PlaceList;

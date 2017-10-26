@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 
 import Header from './src/components/Header';
-import PlaceList from './src/components/PlaceList'
+import PlaceList from './src/components/PlaceList';
 
 const App = () => {
   return (

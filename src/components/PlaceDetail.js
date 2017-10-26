@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, Text, View } from 'react-native';
 
 import Card from './Card';
-import CardSection from './CardSection'
+import CardSection from './CardSection';
 
 const PlaceDetail = (props) => {
    return (
@@ -24,7 +24,7 @@ const PlaceDetail = (props) => {
          </Card>
       </View>
    );
-}
+};
 
 const styles = {
    titleStyle: {
