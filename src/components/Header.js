@@ -1,12 +1,11 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import axios from 'axios';
 
 const Header = (props) => {
-   const { viewStyle, textStyle } = styles;
+   const { headerStyle, textStyle } = styles;
 
    return (
-      <View style={viewStyle}>
+      <View style={headerStyle}>
          <Text style={textStyle}>{props.title}</Text>
       </View>
    );
@@ -19,7 +18,7 @@ const styles = {
       padding: 5
    },
 
-   viewStyle: {
+   headerStyle: {
       alignItems: 'center',
       backgroundColor: '#0C508B',
       elevation: 5,
