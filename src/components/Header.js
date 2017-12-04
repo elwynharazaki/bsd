@@ -12,19 +12,15 @@ const Header = (props) => {
 };
 
 const styles = {
-   textStyle: {
-      color: '#6D96B9',
-      fontSize: 30,
-      padding: 5
-   },
-
    headerStyle: {
       alignItems: 'center',
-      backgroundColor: '#0C508B',
-      elevation: 5,
-      shadowColor: '#083861',
-      shadowOffset: { width: 0, height: 20 },
-      shadowOpacity: 0.9
+      backgroundColor: 'transparent'
+   },
+
+   textStyle: {
+      color: '#6D96B9',
+      fontSize: 25,
+      padding: 8
    }
 };
 
